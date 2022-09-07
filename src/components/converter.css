@@ -1,0 +1,120 @@
+/**
+ * Design Credit:
+ * https://dribbble.com/shots/4241423-Exchanger-landing-page
+**/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana;
+  background: rgb(28, 78, 154);
+  background: linear-gradient(
+    237deg,
+    rgba(28, 78, 154, 1) 48%,
+    rgba(44, 110, 206, 1) 85%,
+    rgba(45, 123, 238, 1) 100%
+  );
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 10px 1px #333;
+  border-radius: 7px;
+  background: white;
+  min-width: 440px;
+  min-height: 320px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: #2d7bee;
+  color: white;
+  font-size: 20px;
+}
+
+.card-body {
+  flex: 1;
+  padding: 30px;
+}
+
+.unit-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.unit {
+  display: inline-flex;
+  background-color: #2d7bee;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 35px;
+  color: white;
+  border-radius: 3px;
+}
+
+.exchange-icon {
+  color: #a8aeba;
+}
+
+.angle-icon {
+  color: #b0c9f6;
+}
+
+.converter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.converter-title {
+  color: #a8aeba;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.card-footer {
+  min-height: 40px;
+  margin: 5px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: #2d7bee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.input-number {
+  font-size: 32px;
+  max-width: 170px;
+  flex: 1;
+  display: inline-block;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: Courier;
+  color: #2d7bee;
+  font-weight: bold;
+}
+
+.text-right {
+  text-align: right;
+}
+.flex-1 {
+  flex: 1;
+}
