@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/project_SpeedConverter-app/static/css/main.8252d2cc.css",
+    "main.js": "/project_SpeedConverter-app/static/js/main.319ad4b7.js",
+    "static/js/787.7c3dd3f4.chunk.js": "/project_SpeedConverter-app/static/js/787.7c3dd3f4.chunk.js",
+    "index.html": "/project_SpeedConverter-app/index.html",
+    "main.8252d2cc.css.map": "/project_SpeedConverter-app/static/css/main.8252d2cc.css.map",
+    "main.319ad4b7.js.map": "/project_SpeedConverter-app/static/js/main.319ad4b7.js.map",
+    "787.7c3dd3f4.chunk.js.map": "/project_SpeedConverter-app/static/js/787.7c3dd3f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8252d2cc.css",
+    "static/js/main.319ad4b7.js"
+  ]
+}
