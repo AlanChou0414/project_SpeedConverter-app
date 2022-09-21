@@ -1,5 +1,5 @@
 import './converter.css'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const UnitControl = () => (
   <div className="unit-control">
@@ -12,7 +12,7 @@ const UnitControl = () => (
   </div>
 );
 
-const CardFooter = ({inputValue}) => {
+const CardFooter = ({ inputValue }) => {
   let criteria;
   if (!inputValue) {
     criteria = {
@@ -49,7 +49,12 @@ const CardFooter = ({inputValue}) => {
 };
 
 const SpeedConverter = () => {
-  const [inputValue, setInputValue] = useState(0);
+  const localStorageData = localStorage.getItem('inputValue');
+  const [inputValue, setInputValue] = useState(localStorageData || 0);
+
+  useEffect(() => {
+    localStorage.setItem('inputValue', inputValue)
+  }, [inputValue])
 
   const handleInputChange = (e) => {
     const { value } = e.target;
