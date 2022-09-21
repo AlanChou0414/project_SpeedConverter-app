@@ -10,6 +10,7 @@
 
 <h3>學習使用</h3>
 - useState <br>
+- useEffect <br>
 - styled component <br>
 - localStorage <br>
 
