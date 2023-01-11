@@ -1,4 +1,4 @@
-# Speed Converter App
+# Network Speed Converter App
 
 ## :star2: About the Project
 
