@@ -1,16 +1,18 @@
 # Network Speed Converter App
 
-## :star2: About the Project
-
-A Network Speed Converter <br>
-<a href="https://ithelp.ithome.com.tw/users/20103315/ironman/2668?page=1">從 Hooks 開始，讓你的網頁 React 起來  （ iT邦鐵人賽 ）</a>
-
-### :camera: Screenshots
+## :camera: Screenshots
 
 ![CleanShot 2022-09-21 at 16 05 21](https://user-images.githubusercontent.com/99056343/191450160-3da45284-47e4-43d4-a9f2-86671eacc7c9.gif)
 
+## :star2: About the Project
 
-### 🔨 Built With
+The Network Speed Converter app is a utility app that allows users to easily convert between different network speed units. The app features a simple interface with input fields for the user to enter the speed in a given unit and select the desired output unit. The supported input and output units include kilobits per second (Kbps), megabits per second (Mbps), gigabits per second (Gbps), kilobytes per second (KB/s), megabytes per second (MB/s), and gigabytes per second (GB/s).
+
+The app is designed to be easy to use and provides quick and accurate conversions between network speed units. It is a useful tool for anyone who needs to convert between different network speed units, such as IT professionals, network administrators, or anyone working with internet technologies.
+
+The app is built using modern web technologies, and is compatible with both desktop and mobile devices. It is a helpful utility app that can save time and effort when working with network speed conversions.
+
+## 🔨 Built With
 
 <p align="left"> 
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
