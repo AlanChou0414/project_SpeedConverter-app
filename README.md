@@ -6,7 +6,7 @@
 
 ## :star2: About the Project
 
-The Network Speed Converter app is a utility app that allows users to easily convert between different network speed units. The app features a simple interface with input fields for the user to enter the speed in a given unit and select the desired output unit. The supported input and output units include kilobits per second (Kbps), megabits per second (Mbps), gigabits per second (Gbps), kilobytes per second (KB/s), megabytes per second (MB/s), and gigabytes per second (GB/s).
+The Network Speed Converter app is a utility app that allows users to easily convert between different network speed units. The app features a simple interface with input fields for the user to enter the speed in a given unit and select the desired output unit. The supported input and output units include megabits per second (Mbps) and megabytes per second (MB/s).
 
 The app is designed to be easy to use and provides quick and accurate conversions between network speed units. It is a useful tool for anyone who needs to convert between different network speed units, such as IT professionals, network administrators, or anyone working with internet technologies.
 
