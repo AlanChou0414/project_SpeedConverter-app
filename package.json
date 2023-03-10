@@ -1,5 +1,5 @@
 {
-  "name": "NetworkSpeedConverterApp",
+  "name": "SpeedConverter-app",
   "homepage": "https://AlanChou1995.github.io/project_SpeedConverter-app",
   "version": "0.1.0",
   "private": true,
@@ -7,10 +7,17 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.15.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -38,5 +45,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:AlanChou1995/project_SpeedConverter-app.git",
+  "author": "AlanChou1995 <99056343+AlanChou1995@users.noreply.github.com>",
+  "license": "MIT"
 }
